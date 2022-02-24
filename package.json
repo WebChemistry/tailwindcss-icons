@@ -1,0 +1,9 @@
+{
+  "name": "tailwindcss-icons",
+  "version": "1.0.0",
+  "description": "Svg icon utilities for tailwindcss",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
