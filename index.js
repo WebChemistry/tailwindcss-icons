@@ -86,7 +86,7 @@ function tailwindcssIcons(iconDir, required = false, iconBuilder = null) {
 					continue;
 				}
 
-				const icon = contents.replace('%color%', color);
+				const icon = contents.replaceAll('%color%', color);
 
 				utilities['.' + iconBuilder.build(names, colorName)] = iconBuilder.buildCss(icon);
 			}
